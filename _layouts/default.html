@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Life+Savers:wght@400;700&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css" >
+  <title>{{ site.title }} - {{ page.title }}</title>
+</head>
+<body>
+  <header>
+      {% include header.html %}
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <!-- {@link https://gist.github.com/khoparzi/f91006c01db23bd07a3723279dcac1b5} -->
+  <!-- <script async src="//www.instagram.com/embed.js"></script> -->
+</body>
+</html>

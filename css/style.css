@@ -1,0 +1,147 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    margin: 0% auto;
+    line-height: 1.6;
+    font-family: 'Catalina_Typewriter_Light', monospace;
+    font-size: 1.6rem;
+    background-color: #b9e1ed;
+    color: #565656;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+header {
+    background-color: #f0f0ee;
+    border-radius: 50%;
+    border: #d3e29d solid 1em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 1% auto;
+    padding: 0;
+    flex-grow: 1;
+    aspect-ratio: 1;
+}
+
+header > div, header > nav {
+    flex-shrink: 0;
+}
+
+a {
+    color: #565656;
+    /* color: #ce474d; */
+}
+
+h1,h2,h3 {
+    color: #ce474d;
+    font-family: 'Catalina_Typewriter_Light', monospace;
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+header h1 {
+    color: #565656;
+    font-size: 5.4em;
+    /* margin-top: -0.5em; */
+    /* margin-bottom: 0.5em; */
+}
+
+h1 > a {
+    color: #565656;
+    text-decoration: none;
+}
+
+header h2 {
+    font-size: 1.2em;
+    line-height: 1;
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+}
+
+header > nav {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 4% 0;
+}
+
+header > nav > a > img {
+    height: 2rem;
+    width: 2rem;
+    padding: 1rem;
+}
+
+main table {
+    margin: auto;
+}
+
+main table td {
+    padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 1079px) {
+    body {
+        font-size: 1.2rem;
+    }
+    header {
+        margin: 1% auto;
+    }
+}
+@media screen and (max-width: 860px) {
+    body {
+        font-size: 1.0rem;
+        line-height: 1;
+    }
+    header {
+        margin: 1% auto;
+    }
+    header > nav > a > img {
+        height: 2rem;
+        width: 2rem;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.7rem;
+    }
+}
+
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at https://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2022 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Kimmy Design
+ * License URL: https://www.fontspring.com/licenses/kimmy-design/webfont
+ *
+ *
+ */
+@font-face {
+    font-family: 'Catalina_Typewriter_Light';
+    src: url('../assets/fonts/Catalina_Typewriter_Light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/Catalina_Typewriter_Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
