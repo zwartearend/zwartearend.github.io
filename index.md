@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Recreatiedomein De Zwarte Arend"
 slug: "recreatiedomein-de-zwarte-arend"
 date: 2014-02-08T00:41:47
@@ -9,4 +9,6 @@ date: 2014-02-08T00:41:47
 
 ### Algemene info
 
-Recreatiedomein DE ZWARTE AREND is nieuw te Pulderbos. Nochtans heeft de Zwarte Arend reeds een lange geschiedenis. Het huis “den Arend” gelegen aan Dorp nr. 13 werd gebouwd rond 1583 door J.B. Van De Kieboom, griffier van de stad Antwerpen. Het werd een brouwerij in 1630 en de naam werd veranderd in De Zwarte Arend. In de volksmond ook wel gekend als de hel want samen met de vroegere pastorij en het huis nr. 16 worden de 3 gebouwen nog steeds Hemel, Hel en Vagevuur genoemd. Het domein in hartje Pulderbos biedt dan ook uitgebreide mogelijkheden om de bewoners van Pulderbos en omliggende gemeenten, de mogelijkheid te bieden om zich te ontspannen. [caption id="" align="alignnone" width="829"]![](http://farm7.staticflickr.com/6196/6061619900_0591b02644_b_d.jpg) De Brouwerij[/caption] 
+Recreatiedomein DE ZWARTE AREND is nieuw te Pulderbos. Nochtans heeft de Zwarte Arend reeds een lange geschiedenis. Het huis “den Arend” gelegen aan Dorp nr. 13 werd gebouwd rond 1583 door J.B. Van De Kieboom, griffier van de stad Antwerpen. Het werd een brouwerij in 1630 en de naam werd veranderd in De Zwarte Arend. In de volksmond ook wel gekend als de hel want samen met de vroegere pastorij en het huis nr. 16 worden de 3 gebouwen nog steeds Hemel, Hel en Vagevuur genoemd. Het domein in hartje Pulderbos biedt dan ook uitgebreide mogelijkheden om de bewoners van Pulderbos en omliggende gemeenten, de mogelijkheid te bieden om zich te ontspannen.
+
+![De Brouwerij](http://farm7.staticflickr.com/6196/6061619900_0591b02644_b_d.jpg) 
