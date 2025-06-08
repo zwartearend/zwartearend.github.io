@@ -9,6 +9,10 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write # Grants the GITHUB_TOKEN write access to Pages.
+      id-token: write # Required for OpenID Connect to authenticate with GH Pages
 
     steps:
       - name: Checkout code
