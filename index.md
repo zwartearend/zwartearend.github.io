@@ -1,11 +1,21 @@
 ---
 layout: default
 title: "Recreatiedomein De Zwarte Arend"
-slug: "recreatiedomein-de-zwarte-arend"
+slug: "home"
 date: 2014-02-08T00:41:47
 ---
 
-**Wordt nu lid van VZW De Zwarte Arend en huur onze terreinen!** Het lidgeld voor 2018 is door het bestuur van de VZW bepaald op 10€/persoon. Voor gezinnen is vanaf de 3e persoon die lid wordt het lidgeld bepaald op 5€/persoon. (bv.: een gezin met 2 kinderen kan voor 30€ met 4 personen lid worden) Voorwaarde hierbij is wel dat deze personen allemaal op hetzelfde adres wonen. Lid worden doe je als volgt: Ga via volgende link naar de pagina om lidgelden te bestellen: [Lidgeld 2024 product](http://zwartearend.local/product/lidgeld-2024 "Lidgeld 2014") Op deze pagina kan je aangeven met hoeveel personen jullie lid willen worden. Verder zal je gevraagd worden om je contactgegevens door te geven. Na overschrijving van het lidgeld op rekening van de VZW, met vermelding van naam (of namen) + lidgeld 2024 is het lidmaatschap een feit. Rekeningnummer VZW DZA: BE96 7360 0380 6205 BIC KREDBEBB Meer info over de huurvoorwaarden vind je onder het tabblad Sport & Spel. 
+**Wordt nu lid van VZW De Zwarte Arend en huur onze terreinen!** Het lidgeld voor 2025 is door het bestuur van de VZW bepaald op 10€/persoon. Voor gezinnen is vanaf de 3e persoon die lid wordt het lidgeld bepaald op 5€/persoon. (bv.: een gezin met 2 kinderen kan voor 30€ met 4 personen lid worden) Voorwaarde hierbij is wel dat deze personen allemaal op hetzelfde adres wonen. Lid worden doe je als volgt: 
+
+Aangeven met hoeveel personen jullie lid willen worden. 
+
+Verder zal je gevraagd worden om je contactgegevens door te geven. 
+
+Na overschrijving van het lidgeld op rekening van de VZW, met vermelding van naam (of namen) + lidgeld 2024 is het lidmaatschap een feit. 
+
+Rekeningnummer VZW DZA: BE96 7360 0380 6205 BIC KREDBEBB 
+
+Meer info over de huurvoorwaarden vind je onder het tabblad [Sport & Spel]({{ "/sport/" | relative_url }}). 
 
 ### Algemene info
 
