@@ -79,10 +79,8 @@ header {
 
 header h1 {
   /* --- A complete transplant of Aquarius's #logo style --- */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 3em;
-  font-weight: bold;
-  letter-spacing: -0.08em;
+  font-family: 'Catalina Typewriter Light', sans-serif;
+  font-size: 2.8em;
   line-height: 1em; /* Keeps the big heading tight */
   color: #b4b2ae; /* The signature muted grey for the main title */
 
