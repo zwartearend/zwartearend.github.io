@@ -15,7 +15,7 @@ Na overschrijving van het lidgeld op rekening van de VZW, met vermelding van naa
 
 Rekeningnummer VZW DZA: BE96 7360 0380 6205 BIC KREDBEBB 
 
-Meer info over de huurvoorwaarden vind je onder het tabblad [Sport & Spel]({{ "/sport/" | relative_url }}). 
+Meer info over de huurvoorwaarden vind je onder het tabblad [Sport & Spel]({{ "/sport" | relative_url }}). 
 
 ### Algemene info
 
