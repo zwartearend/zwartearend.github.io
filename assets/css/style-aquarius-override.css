@@ -1,0 +1,380 @@
+/*
+ * ===================================================================
+ *                    HYBRID-OVERRIDE.CSS (v0.1)
+ * ===================================================================
+ *  Description: Aquarius DNA transplanted onto the Architect skeleton.
+ *  Load this file *AFTER* the main style.css in your Jekyll template.
+ *  Let the beautiful chaos commence. (⊕)
+ * ===================================================================
+ */
+
+/*
+ * === SECTION 1: FOUNDATIONAL & BODY OVERRIDES ===
+ * Here we establish the fundamental look and feel. We're swapping the
+ * entire color palette, typography base, and killing Architect's ghosts.
+ * -------------------------------------------------------------------
+ */
+
+body {
+  /* --- HARVESTED FROM AQUARIUS --- */
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #141412; /* A very dark, near-black for body text */
+  background: #5f5e5d; /* The signature dark grey body background */
+
+  /* --- ARCHITECT KILL-SWITCH --- */
+  text-shadow: none; /* CRITICAL: Kills Architect's light text-shadow which looks awful on a dark BG */
+}
+
+p {
+  /* --- A subtle but important override --- */
+  font-weight: normal; /* Architect sets paragraphs to a light font-weight (300). We want a normal, readable weight. */
+  margin: 0 0 24px; /* Standard paragraph spacing from Aquarius */
+}
+
+a,
+a:visited {
+  /* --- Link palette override --- */
+  color: #1d9ab4; /* Aquarius's signature cyan/blue for links */
+  transition: all 0.5s; /* Stealing the smooth transition effect for hovers */
+  -webkit-transition: all 0.5s;
+}
+
+a:hover {
+  color: #3dc4e0; /* The lighter hover color */
+  text-decoration: underline; /* A classic, clear hover indicator from Aquarius */
+}
+
+/*
+ * === SECTION 2: LAYOUT & CONTAINER OVERRIDES ===
+ * Architect's container is transparent by default. We're giving it
+ * a solid, tangible presence, creating the "page on a background"
+ * effect central to the Aquarius aesthetic.
+ * -------------------------------------------------------------------
+ */
+
+#container {
+  /* --- HARVESTED FROM AQUARIUS'S #content-main --- */
+  background: #ffffff; /* The clean, white canvas for all our content */
+
+  /* --- ARCHITECT KILL-SWITCH --- */
+  min-height: 0; /* Architect sets a min-height. We'll let content define the height naturally. */
+  background-image: none; /* CRITICAL: Kills Architect's highlight-bg.jpg background image. */
+}
+
+/*
+ * === SECTION 3: HEADER OVERRIDES ===
+ * The header is the face of the site. We're giving it a distinct
+ * background and completely overhauling the typography to match
+ * Aquarius's bold, stylish, and high-contrast aesthetic.
+ * -------------------------------------------------------------------
+ */
+
+header {
+  /* --- HARVESTED FROM AQUARIUS'S #header-main --- */
+  background: #f2eeea; /* A warm, paper-like background to separate it from the content */
+  padding: 60px 40px;  /* Generous padding for a more luxurious, spaced-out feel */
+}
+
+header h1 {
+  /* --- A complete transplant of Aquarius's #logo style --- */
+  font-family: 'Catalina Typewriter Light', sans-serif;
+  font-size: 2.8em;
+  line-height: 1em; /* Keeps the big heading tight */
+  color: #b4b2ae; /* The signature muted grey for the main title */
+
+  /* --- ARCHITECT KILL-SWITCH --- */
+  text-shadow: none; /* Just in case of any lingering shadows */
+}
+
+header h2 {
+  /* --- A custom-forged style, inspired by Aquarius's typographic details --- */
+  font-family: Georgia, serif; /* Contrast with the h1 by using the body font */
+  font-style: italic;
+  font-weight: normal; /* Make it recede gracefully */
+  font-size: 1.1em;
+  color: #b4b2ae; /* Using the same muted color for a cohesive look */
+  margin-top: 15px; /* Give it some breathing room from the h1 */
+  
+  /* --- ARCHITECT KILL-SWITCH --- */
+  letter-spacing: normal; /* Kills Architect's negative letter-spacing on the subtitle */
+}
+
+/*
+ * === SECTION 4: INTERSTITIAL & CALL-TO-ACTION OVERRIDES ===
+ * This section bridges the gap between the header and the main content.
+ * We're reforging the download buttons and the horizontal rule to
+ * match the clean, modern Aquarius aesthetic.
+ * -------------------------------------------------------------------
+ */
+
+section#downloads a.button {
+  /* --- A high-fidelity transplant from Aquarius's input[type="submit"] --- */
+  background: #20adca; /* The signature Aquarius action color */
+  border: none; /* Kill Architect's multi-layered border */
+  border-radius: 500em; /* Fully rounded "pill" shape */
+  color: #f1f1f1 !important; /* Force color for specificity war with default 'a' */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px 25px; /* Balanced padding for this context */
+  margin-right: 14px; /* Retain Architect's spacing */
+  text-transform: uppercase;
+  letter-spacing: 0.1em; /* Add some breathing room to the text */
+  line-height: 25px; /* Match Architect's line-height for vertical alignment */
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+
+  /* --- ARCHITECT KILL-SWITCHES --- */
+  box-shadow: none; /* Obliterate the default button shadow */
+  background-image: none; /* CRITICAL: Kills the linear-gradient background */
+  filter: none; /* Kills the old IE gradient filter */
+}
+
+section#downloads a.button:hover {
+  background: #19879e; /* Aquarius's darker hover blue */
+  color: #ffffff !important;
+  border: none; /* Ensure no border appears on hover */
+}
+
+/* We must hide Architect's icon spans, as they don't fit our new design */
+section#downloads a.button span {
+  padding-left: 0; /* Remove the padding that made space for the icon */
+  background: none !important; /* Force-kill the icon background images. NUKE DEPLOYED. */
+  height: auto; /* Let the text define the height */
+}
+
+hr {
+  /* --- A simple, elegant rule from Aquarius --- */
+  background: none; /* CRITICAL: Kills Architect's image-based hr */
+  border: none;
+  border-bottom: 1px dashed #c0bfbb; /* The subtle, dashed look */
+  height: 1px;
+  margin: 60px 0; /* More generous margin for better visual separation */
+}
+
+/*
+ * === SECTION 5: MAIN CONTENT TYPOGRAPHY OVERRIDES ===
+ * This is the heart of the theme. We are sculpting the very text
+ * that users will read, ensuring it is beautiful, functional, and
+ * full of Aquarius's character.
+ * -------------------------------------------------------------------
+ */
+
+/* --- Headings within the Content Area --- */
+#main_content h1,
+#main_content h2,
+#main_content h3,
+#main_content h4,
+#main_content h5,
+#main_content h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.08em;
+  line-height: 1em;
+  color: #383838; /* A strong, dark grey for high contrast */
+  margin: 45px 0;
+}
+
+/* Defining the heading hierarchy sizes from Aquarius */
+#main_content h1 { font-size: 3em; }
+#main_content h2 { font-size: 2.5em; }
+#main_content h3 { font-size: 2em; }
+#main_content h4 { font-size: 1.5em; }
+#main_content h5 { font-size: 1em; }
+#main_content h6 { font-size: 0.75em; }
+
+/* --- Blockquotes: The Voice of Others --- */
+#main_content blockquote {
+  color: #b4b2ae; /* The classic muted grey */
+  font-style: italic;
+  font-size: 1.1em; /* Slightly larger than body text for emphasis */
+  margin: 24px 40px;
+
+  /* --- ARCHITECT KILL-SWITCHES --- */
+  border-left: none; /* Annihilate Architect's thick border */
+  padding: 0; /* Kill Architect's padding */
+}
+/* Fix for blockquotes that contain paragraphs */
+#main_content blockquote p {
+  margin-bottom: 0;
+}
+
+
+/* --- Lists: Ordered & Unordered Information --- */
+#main_content ul,
+#main_content ol {
+  margin: 16px 0 24px 0;
+  padding: 0 0 0 40px; /* Aquarius's standard indentation */
+}
+
+#main_content ul {
+  list-style-type: square; /* The signature Aquarius square bullets */
+}
+
+#main_content ul li,
+#main_content ol li {
+  /* --- ARCHITECT KILL-SWITCHES --- */
+  padding-left: 0; /* Kill Architect's list-item-specific padding */
+  margin-left: 0; /* Kill Architect's list-item-specific margin */
+  margin-bottom: 8px; /* Add our own vertical spacing for readability */
+}
+
+/* --- Inline Code Snippets --- */
+#main_content code {
+  background: #f2eeea; /* Use the warm header color for consistency */
+  border-radius: 3px;
+  font-size: 0.85em; /* Make it subtle and not too large */
+  padding: 3px 6px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; /* Ensure monospacing */
+  color: #383838;
+
+  /* --- ARCHITECT KILL-SWITCH --- */
+  border: none;
+}
+
+/* --- THE DANGER ZONE: Code Blocks & Syntax Highlighting --- */
+#main_content pre {
+  background: #f5f5f5; /* Aquarius's light grey background */
+  border: 1px dashed #e4dcd4; /* The dashed border for a "scrap of paper" feel */
+  color: #666; /* Default text color for code blocks */
+  padding: 20px;
+  overflow: auto; /* Enable scrolling for long code blocks */
+}
+
+/* This resets the inline 'code' style when it's inside a 'pre' block */
+#main_content pre code {
+  background: transparent;
+  color: inherit; /* Let the text color be defined by the 'pre' and syntax highlighter */
+  border-radius: 0;
+  font-size: 14px; /* Aquarius's standard code block font size */
+  padding: 0;
+}
+
+/*
+ * === SECTION 6: FOOTER OVERRIDES ===
+ * The final touch. We're transforming the footer from a simple
+ * sign-off into a fully realized design element that anchors the
+ * entire page layout. This is where we bring it home.
+ * -------------------------------------------------------------------
+ */
+
+footer {
+  /* --- A transplant from Aquarius's #credits section --- */
+  background: #e5e4e3; /* A cool, light grey that complements the header's warm tone */
+  color: #a6a6a6;
+  font-size: 0.8em;
+  padding: 30px;
+  text-align: center;
+  margin-top: 60px; /* Generous spacing from the main content */
+  
+  /* --- A subtle but crucial detail from Aquarius --- */
+  border-top: 1px solid #ffffff; /* Gives a slight "embossed" feel against the content area */
+  
+  /* --- ARCHITECT KILL-SWITCHES --- */
+  background-image: none; /* Kills Architect's hr.png image used as a top border */
+}
+
+footer a {
+  /* --- Override link colors specifically for the footer context --- */
+  color: #94918c;
+  font-weight: bold; /* Make the links stand out a bit more */
+}
+
+footer a:hover {
+  color: #20adca; /* The signature Aquarius action color on hover */
+}
+
+/*
+ * ===================================================================
+ *         SECTION 7: THE RESPONSIVE NERVOUS SYSTEM (MEDIA QUERIES)
+ * ===================================================================
+ *  Here we breathe life into the beast. This is the harvested and
+ *  adapted responsive logic from Aquarius, ensuring our creation
+ *  is not a rigid monolith, but a fluid, adaptive organism.
+ * ===================================================================
+ */
+
+/*
+ * --- Breakpoint 1: Tablets & Small Desktops (max-width: 959px) ---
+ * The first contraction. We rein in the width for smaller viewports.
+ */
+@media only screen and (max-width: 959px) {
+  .inner {
+    width: 640px; /* Reducing width from Architect's default */
+  }
+
+  header h1 {
+    font-size: 3em; /* Slightly taming the main title */
+    line-height: 1em;
+  }
+}
+
+/*
+ * --- Breakpoint 2: Mobile Sizes / Tablet Portrait (max-width: 767px) ---
+ * The major shift. Content stacks, buttons disappear, and the layout
+ * fully commits to a single-column view.
+ */
+@media only screen and (max-width: 767px) {
+  .inner {
+    width: 94%; /* Switch to a fluid percentage width */
+    overflow: hidden; /* A trick from Aquarius to contain elements */
+  }
+
+  header h1 {
+    font-size: 2.5em; /* Shrinking the title significantly for mobile */
+    line-height: 1em;
+  }
+
+  /*
+   * On mobile, the download buttons become clutter. We adopt Architect's
+   * own responsive logic here and ensure they are hidden. A strategic (⌑) retreat.
+   */
+  section#downloads {
+    display: none;
+  }
+
+  /*
+   * If the user ever uses fractional width classes from Architect,
+   * we ensure they stack vertically on mobile.
+   */
+  .one-half,
+  .one-third,
+  .two-thirds,
+  .one-forth {
+    width: 100%;
+    float: none;
+  }
+}
+
+/*
+ * --- Breakpoint 3: Mobile Landscape (max-width: 479px) ---
+ * A tighter squeeze for smaller phone screens.
+ */
+@media only screen and (max-width: 479px) {
+  .inner {
+    width: 95%; /* Maintaining a fluid width with slightly different margins */
+  }
+
+  header h1 {
+    font-size: 2.5em; /* Further reduction for clarity */
+  }
+
+  #main_content h1 { font-size: 2.2em; }
+  #main_content h2 { font-size: 1.8em; }
+}
+
+
+/*
+ * --- Breakpoint 4: Mobile Portrait (max-width: 380px) ---
+ * The final cinch for the narrowest of devices.
+ */
+@media only screen and (max-width: 380px) {
+  .inner {
+    width: 96%; /* Maximize screen real estate */
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+  }
+}
