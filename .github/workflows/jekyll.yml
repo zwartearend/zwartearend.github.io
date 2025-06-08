@@ -1,0 +1,35 @@
+# .github/workflows/jekyll.yml
+name: Build and Deploy Jekyll Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0' # Adjust this to your Ruby version if different!
+          bundler-cache: true # Caches installed gems for faster builds
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' # Only deploy from main branch
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          # Keep this if you want to push to the 'gh-pages' branch
+          # Or remove if you're deploying from 'main' branch directly
+          # and your GitHub Pages source is set to 'main'
+          # publish_branch: gh-pages # This is often used for user/org pages

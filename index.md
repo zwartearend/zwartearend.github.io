@@ -11,7 +11,7 @@ Aangeven met hoeveel personen jullie lid willen worden.
 
 Verder zal je gevraagd worden om je contactgegevens door te geven. 
 
-Na overschrijving van het lidgeld op rekening van de VZW, met vermelding van naam (of namen) + lidgeld 2024 is het lidmaatschap een feit. 
+Na overschrijving van het lidgeld op rekening van de VZW, met vermelding van naam (of namen) + lidgeld 2025 is het lidmaatschap een feit. 
 
 Rekeningnummer VZW DZA: BE96 7360 0380 6205 BIC KREDBEBB 
 
