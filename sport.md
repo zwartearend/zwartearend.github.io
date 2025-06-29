@@ -8,7 +8,7 @@ slug: "sport"
 
 ### Tennis
 
-Huur van de tennisterreinen is inbegrepen in het lidgeld. Reservaties kunnen gemaakt worden via deze website. Indien je geen reservatie op voorhand hebt gemaakt op de website maar ter plaatse komt en vaststelt dat de terreinen vrij zijn kan je ook tennissen mits SMS met naam, terrein en aanvangsuur naar 0474 703 223. 
+Huur van de tennisterreinen is inbegrepen in het lidgeld. <!--Reservaties kunnen gemaakt worden via deze website. Indien je geen reservatie op voorhand hebt gemaakt op de website maar ter plaatse komt en vaststelt dat de terreinen vrij zijn kan je ook tennissen mits SMS met naam, terrein en aanvangsuur naar 0474 703 223.-->
 
 ### Tennislessen
 
